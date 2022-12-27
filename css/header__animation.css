@@ -27,5 +27,5 @@
     position: absolute;
     inset: 5px;
     z-index: 999;
-    background: rgb(0, 0, 0);
+    background: black;
 }
