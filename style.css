@@ -160,12 +160,18 @@ main{
 .main__results{
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
+    flex-direction: column;
     width: 30%;
     height: 100px;
     border: 3px solid #00ccff70;
     border-radius: 20px;
     transition: border 0.3s ease-in-out;
+}
+.bmiText{ font-size: 2rem; }
+.main__results p{
+    margin: 10px;
 }
 .main__results:hover{
     border: 3px solid #00ccff;
