@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header__title">
+            <div class="header__animation">
+                <span></span>
+                <h1>Kalkulator BMI</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main__popup"></div>
+        <div class="main__input">
+            <label for="height" class="label">Cm</label>
+            <input type="number" name="height" class="main__height input">
+            <label for="weight" class="label">Kg</label>
+            <input type="number" name="weight" class="main__weight input">
+            <input type="button" value="Oblicz" class="btn">
+        </div>
+        <div class="main__results">
+            <p>Twoje BMI wynosi: <span class="span">00</span></p>
+        </div>
+    </main>
+    <script src="/app.js"></script>
+</body>
+</html>
