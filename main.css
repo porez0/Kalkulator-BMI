@@ -1,5 +1,5 @@
 @import url(css/reset.css);
-
+@import url(css/animation.css);
 header{
     display: flex;
     align-items: center;
@@ -29,38 +29,6 @@ header h1{
 
     width: 450px;
     height: 80px;
-}
-
-.header__animation::before{
-    display: block;
-    position: absolute;
-    content: '';
-    width: 500px;
-    height: 500px;
-    background-image: conic-gradient(transparent, transparent, transparent, #00ccff);
-    animation: animate 3s linear infinite;
-}
-.header__animation::after{
-    display: block;
-    position: absolute;
-    content: '';
-    width: 500px;
-    height: 500px;
-    background-image: conic-gradient(transparent, transparent, transparent, #d400d4);
-    animation: animate 3s linear infinite;
-    animation-delay: -1.5s;
-}
-
-@keyframes animate{
-    0%{ transform: rotate(0deg); }
-    100%{ transform: rotate(360deg); }
-}
-
-.header__animation span{
-    position: absolute;
-    inset: 5px;
-    z-index: 999;
-    background: rgb(0, 0, 0);
 }
 
 main{
